@@ -1,0 +1,48 @@
+main {
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+    background: rgb(34, 34, 34);
+}
+
+.container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    min-height: calc(100vh - 100px);
+    height: 100%;
+    flex-direction: column;
+}
+
+.title__wrapper {
+    border: 1px solid purple;
+    background: wheat;
+    border-radius: 8px;
+    padding: 40px 130px;
+}
+
+.title {
+    color: rgb(97, 16, 129);
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.white__bg {
+    background: white;
+    width: 200px;
+    height: 200px;
+}
+
+.author__wrapper {
+    background: wheat;
+    border: 2px solid purple;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.author {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgba(37, 0, 51, 0.712);
+}
